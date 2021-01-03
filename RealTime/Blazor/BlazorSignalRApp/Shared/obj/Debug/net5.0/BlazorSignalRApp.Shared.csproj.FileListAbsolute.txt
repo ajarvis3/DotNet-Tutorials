@@ -1,0 +1,12 @@
+E:\OneDrive\Documents\Programming\ASP.NET\RealTime\Blazor\BlazorSignalRApp\Shared\bin\Debug\net5.0\BlazorSignalRApp.Shared.deps.json
+E:\OneDrive\Documents\Programming\ASP.NET\RealTime\Blazor\BlazorSignalRApp\Shared\bin\Debug\net5.0\BlazorSignalRApp.Shared.dll
+E:\OneDrive\Documents\Programming\ASP.NET\RealTime\Blazor\BlazorSignalRApp\Shared\bin\Debug\net5.0\ref\BlazorSignalRApp.Shared.dll
+E:\OneDrive\Documents\Programming\ASP.NET\RealTime\Blazor\BlazorSignalRApp\Shared\bin\Debug\net5.0\BlazorSignalRApp.Shared.pdb
+E:\OneDrive\Documents\Programming\ASP.NET\RealTime\Blazor\BlazorSignalRApp\Shared\obj\Debug\net5.0\BlazorSignalRApp.Shared.csprojAssemblyReference.cache
+E:\OneDrive\Documents\Programming\ASP.NET\RealTime\Blazor\BlazorSignalRApp\Shared\obj\Debug\net5.0\BlazorSignalRApp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+E:\OneDrive\Documents\Programming\ASP.NET\RealTime\Blazor\BlazorSignalRApp\Shared\obj\Debug\net5.0\BlazorSignalRApp.Shared.AssemblyInfoInputs.cache
+E:\OneDrive\Documents\Programming\ASP.NET\RealTime\Blazor\BlazorSignalRApp\Shared\obj\Debug\net5.0\BlazorSignalRApp.Shared.AssemblyInfo.cs
+E:\OneDrive\Documents\Programming\ASP.NET\RealTime\Blazor\BlazorSignalRApp\Shared\obj\Debug\net5.0\BlazorSignalRApp.Shared.csproj.CoreCompileInputs.cache
+E:\OneDrive\Documents\Programming\ASP.NET\RealTime\Blazor\BlazorSignalRApp\Shared\obj\Debug\net5.0\BlazorSignalRApp.Shared.dll
+E:\OneDrive\Documents\Programming\ASP.NET\RealTime\Blazor\BlazorSignalRApp\Shared\obj\Debug\net5.0\ref\BlazorSignalRApp.Shared.dll
+E:\OneDrive\Documents\Programming\ASP.NET\RealTime\Blazor\BlazorSignalRApp\Shared\obj\Debug\net5.0\BlazorSignalRApp.Shared.pdb
