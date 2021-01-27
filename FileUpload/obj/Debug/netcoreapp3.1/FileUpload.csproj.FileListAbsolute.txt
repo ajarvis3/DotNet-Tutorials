@@ -1,0 +1,6 @@
+E:\OneDrive\Documents\Programming\ASP.NET\FileUpload\obj\Debug\netcoreapp3.1\FileUpload.csprojAssemblyReference.cache
+E:\OneDrive\Documents\Programming\ASP.NET\FileUpload\obj\Debug\netcoreapp3.1\FileUpload.AssemblyInfoInputs.cache
+E:\OneDrive\Documents\Programming\ASP.NET\FileUpload\obj\Debug\netcoreapp3.1\FileUpload.AssemblyInfo.cs
+E:\OneDrive\Documents\Programming\ASP.NET\FileUpload\obj\Debug\netcoreapp3.1\FileUpload.csproj.CoreCompileInputs.cache
+E:\OneDrive\Documents\Programming\ASP.NET\FileUpload\obj\Debug\netcoreapp3.1\FileUpload.MvcApplicationPartsAssemblyInfo.cache
+E:\OneDrive\Documents\Programming\ASP.NET\FileUpload\obj\Debug\netcoreapp3.1\FileUpload.MvcApplicationPartsAssemblyInfo.cs
