@@ -14,10 +14,18 @@ namespace FileUpload.Controllers
     public class FileUploadController: ControllerBase
     {
         private readonly string _filePath;
+        private readonly long _maxFileSize;
+        private readonly string[] _allowedExtensions;
 
         public FileUploadController(IConfiguration config) {
             _filePath = Path.Combine(Directory.GetCurrentDirectory(),
                 config["StoredFilesPath"]);
+            _maxFileSize = Int64.Parse(config["MaxFileSize"]);
+            _allowedExtensions = config.GetSection("AllowedFileExtensions")
+                .GetChildren()
+                .ToArray()
+                .Select(s => s.Value)
+                .ToArray();
             if (!Directory.Exists(_filePath)) {
                 Directory.CreateDirectory(_filePath);
             }
@@ -26,16 +34,18 @@ namespace FileUpload.Controllers
         public async Task<IActionResult> OnPostUploadAsync(List<IFormFile> files)
         {
             long size = files.Sum(f => f.Length);
-            Console.WriteLine(size);
-            Console.WriteLine(files);
 
             foreach (var formFile in files)
             {
-                if (formFile.Length > 0)
+                var extension = Path.GetExtension(formFile.FileName);
+                if (formFile.Length > 0 
+                    && formFile.Length <= _maxFileSize
+                    && _allowedExtensions.Contains(extension))
                 {
+                    var randomName = Path.GetRandomFileName();
+                    randomName = Path.ChangeExtension(randomName, extension);
                     var filePath = Path.Combine(_filePath, 
-                        Path.GetRandomFileName());
-                    Console.WriteLine(filePath);
+                        randomName);
 
                     using (var stream = System.IO.File.Create(filePath))
                     {
